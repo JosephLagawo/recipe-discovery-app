@@ -1,19 +1,20 @@
 # Recipe Discovery App
 
-A React-based recipe discovery application that allows users to search for and explore recipes through an external recipe API.
+A React-based recipe discovery application that allows users to search for and explore recipes using an external recipe API.
 
-The project was built to strengthen my understanding of frontend development, API integration, asynchronous data handling, and user-focused application design.
+The project was built to strengthen my understanding of React, API integration, asynchronous data handling, and frontend application design.
 
-# Live Demo
+## Live Demo
 
-🌐 [View live application](unclejoesrecipebook.netlify.app/)
+🌐 [View the live application](https://unclejoesrecipebook.netlify.app/)
 
 ## Features
 
 * Search for recipes
 * Browse recipe results
-* View recipe information
-* Integrate with an external recipe API
+* View recipe details, ingredients, and instructions
+* Watch embedded cooking videos
+* Integrate with an external REST API
 * Handle loading and error states
 * Responsive user interface
 
@@ -29,44 +30,84 @@ The project was built to strengthen my understanding of frontend development, AP
 
 ```text
 User
- ↓
+  ↓
 React Application
- ↓
+  ↓
 Search Request
- ↓
+  ↓
 Recipe API
- ↓
+  ↓
 JSON Response
- ↓
+  ↓
 Recipe Results
 ```
 
-The application sends requests to the recipe API based on the user's search and processes the returned data before displaying the results through the React interface.
+The application sends a request to the recipe API based on the user's search, processes the returned data, and displays the results through the React interface.
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/JosephLagawo/reciepe-discovery-app.git
+```
+
+Navigate into the project:
+
+```bash
+cd reciepe-discovery-app
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm start
+```
+
+The application will run locally at:
+
+```text
+http://localhost:3000
+```
 
 ## Key Learning
 
-This project helped me develop practical experience with:
+This project provided practical experience with:
 
-* Consuming REST APIs
-* Managing asynchronous data
 * React components and state
-* Handling API responses and errors
-* Building responsive interfaces
-* Structuring a frontend application
+* REST API integration
+* Asynchronous data handling
+* API responses and error handling
+* Responsive frontend development
+* Structuring a React application
 
 ## Future Improvements
 
-If extending the project into a larger application, I would consider:
+Potential future improvements include:
 
-* Building a dedicated FastAPI backend
+* Adding a dedicated FastAPI backend
 * Adding a database for recipes and user data
-* Adding user authentication
-* Implementing favourites and saved recipes
-* Introducing caching to reduce API requests
-* Adding automated testing
+* User authentication
+* Favourites and saved recipes
+* API caching
+* Automated testing
 
 ## Related Content
 
 **Technical Article:** Coming soon
 
-**YouTube Walkthrough:** Coming soon
+**YouTube Case Study:** Coming soon
+
